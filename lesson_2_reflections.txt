@@ -18,6 +18,8 @@ Branches are human readable labels to identify when you have made experimental c
 
 How do the diagrams help you visualize the branch structure?
 
+They show how the commits rely on each other and expound on the concept of branches.  You can easily see how a commit could be lost if you don't branch properly and just check out a commit.
+
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
