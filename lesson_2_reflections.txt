@@ -9,9 +9,12 @@ The stating area allows you to add and change which files you are choosing to co
 
 How can you use the staging area to make sure you have one commit per logical
 change?
+You can stage files and then examine what changes have been made by using git diff and git diff --staged to compare between the working directory and the staging area and the staging area and the most recent commit.
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+
+Branches are human readable labels to identify when you have made experimental changes to the code, but still want to have a working version.  Instead of having to keep track of commit IDs and logging where you made specific changes, you can create a branch and go nuts on it and know exactly where you left off on the main working code.
 
 How do the diagrams help you visualize the branch structure?
 
