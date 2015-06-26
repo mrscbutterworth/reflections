@@ -23,5 +23,7 @@ They show how the commits rely on each other and expound on the concept of branc
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+The two branch commits are interweaved? interleaved? and the line changes are merged together to create one branch (in this case, it is the master branch)  In the diagram, it is easy to see if there are any unreachable commits and to see in the --graph where commits were made, so you can go back if you need to to make other changes.
+
 What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
 manually?
