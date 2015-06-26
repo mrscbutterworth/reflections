@@ -25,7 +25,6 @@ the diagram the way we do?
 
 The two branch commits are interweaved? interleaved? and the line changes are merged together to create one branch (in this case, it is the master branch)  In the diagram, it is easy to see if there are any unreachable commits and to see in the --graph where commits were made, so you can go back if you need to to make other changes.
 
-What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
-manually?
+What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges manually?
 
 Pros of automatic merging is that you can easily combine additions and subtractions in the code without having to parse through a tone of code.  The Cons are that when there is a conflict, git punts the conflict to you to figure out.  If you haven't been making small logical changes, you may end up with a lot of code to parse through to figure out where the conflict is.  The pro of this though, is that it won't create some zombie monster combination that you won't be able to figure out if it had done it automatically and made the wrong assumptions.
