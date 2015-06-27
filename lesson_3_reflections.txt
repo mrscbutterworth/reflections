@@ -29,4 +29,4 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    When you want to add something you aren't entirely sure others want to commit to master, create a branch and make the changes there and create a pull request to get comment or just have others merge it in.  This complicates things somewhat because you have to merge the remote master into your branch, make changes, then push the branch back up, but it is worth it to not blow up the master code or make changes that your collaborators might not want.
